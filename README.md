@@ -7,7 +7,7 @@ Django 4.1 Poll Application
 |   Service   |             Version             |
 | :---------: | :-----------------------------: |
 |     OS      |     Windows 11 Home (22H2)      |
-|  Database   |         PostgreSQL 15.1         |
+|  Database   |            SQLite 3             |
 | Application | Python 3.10.9 <br> Django 4.1.6 |
 
 ## How to use
