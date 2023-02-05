@@ -1,0 +1,2 @@
+# deactivate virtual environment
+deactivate
