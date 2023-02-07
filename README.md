@@ -24,10 +24,35 @@ Django 4.1 Poll Application
 
 ### Setup
 
-1. Execute `setup.ps1` at directory under PollApplication directory.
+- Execute `setup.ps1` at directory under PollApplication directory.
 
-   ```
-   PollApplication> .\setup.ps1
-   ```
+  ```
+  PollApplication> .\setup.ps1
+  ```
 
-2.
+### How to use
+
+- Start RunServer.
+
+  ```
+  PollApplication> .\start-server.ps1
+  ```
+
+  - Push `Ctrl + C` when stopping server.
+
+- Access to localhost http://127.0.0.1:8000/.
+  - `/polls/`: poll Application
+    - Select Question
+    - Vote
+  - `/admin/`: poll Application for admin
+    - Database Management (Question/Choice Settings)
+
+### Package Management
+
+- Polls application is working on virtual environment.
+
+  ```bash
+  PollApplication> .\start-venv.ps1
+  (venv) PollApplication> pip install <package-name>
+  PollApplication> .\stop-venv.ps1
+  ```
