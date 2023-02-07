@@ -30,7 +30,7 @@ Django 4.1 Poll Application
   PollApplication> .\setup.ps1
   ```
 
-### How to use
+### Run/Develop
 
 - Start RunServer.
 
