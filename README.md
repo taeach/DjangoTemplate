@@ -10,6 +10,10 @@ Django 4.1 Poll Application
 |  Database   |            SQLite 3             |
 | Application | Python 3.10.9 <br> Django 4.1.6 |
 
+### Django DataFlow
+
+![Django DataFlow](/docs/django_flow.drawio.png)
+
 ## How to use
 
 ### Prerequisites
