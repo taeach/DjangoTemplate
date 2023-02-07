@@ -41,11 +41,17 @@ Django 4.1 Poll Application
   - Push `Ctrl + C` when stopping server.
 
 - Access to localhost http://127.0.0.1:8000/.
+
   - `/polls/`: poll Application
     - Select Question
     - Vote
   - `/admin/`: poll Application for admin
-    - Database Management (Question/Choice Settings)
+
+    | Username |    Email Address    |  Password  |
+    | :------: | :-----------------: | :--------: |
+    | `admin`  | `admin@example.com` | `password` |
+
+    - Database Management (Question/Choice Settings, ACL)
 
 ### Package Management
 
